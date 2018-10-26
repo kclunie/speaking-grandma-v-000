@@ -1,6 +1,7 @@
 # Write a speak_to_grandma method.
-def speak_to_grandma
-  if "I LOVE YOU GRANDMA"
+def speak_to_grandma(phrase)
+  if phrase == phrase.upcase
+    return 
     
 end
 # Whatever you say to grandma, she should respond with
